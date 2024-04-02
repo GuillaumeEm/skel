@@ -1,0 +1,15 @@
+#!/usr/bin/env php
+<?php
+
+if (php_sapi_name() !== 'cli') {
+    exit;
+}
+
+require __DIR__ . '/../App/bootstrap.php';
+
+$climate = new League\CLImate\CLImate;
+
+$climate->backgroundBlue()->out('Yay ! PHP !');
+$climate->error('But I have nothing to run :(');
+
+// More doc here https://climate.thephpleague.com/

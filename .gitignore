@@ -1,0 +1,16 @@
+public/build
+build
+composer.lock
+vendor
+*.sqlite*
+phpcs.xml
+phpunit.xml
+.phpunit.cache
+.phpunit.result.cache
+.env
+.env.bak
+.env.backup
+.env.production
+.fleet
+.idea
+.vscode
